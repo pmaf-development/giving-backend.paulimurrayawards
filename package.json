@@ -1,0 +1,25 @@
+{
+  "name": "giving-backend.paulimurray",
+  "version": "1.0.0",
+  "description": "Node backend for giving.paulimurrayawards.com",
+  "keywords": [
+    "node.js",
+    "express",
+    "backend",
+    "server"
+  ],
+  "license": "MIT",
+  "author": "Evan Vaughn <me@evaughn.dev>",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "path": "^0.12.7",
+    "stripe": "^18.4.0"
+  }
+}
